@@ -2,6 +2,11 @@ package praktek02;
 public class Triangle {
  double alas;
  double tinggi;
+
+    public Triangle() {
+        alas=8;
+        tinggi=4;
+    }
  
  void cetakInfo(){
     System.out.println("=====================");
@@ -14,5 +19,8 @@ public class Triangle {
      double luas;
      luas=0.5*alas*tinggi;
      return luas;
+ }
+ void cetakLuas(){
+     System.out.println("Luasnya adalah:"+hitungLuas());
  }
 }
