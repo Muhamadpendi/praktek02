@@ -8,6 +8,7 @@ public class TriangleAksi {
         
         r1.cetakInfo();
         System.out.println("Luas triangle = "+r1.hitungLuas());
+        r1.cetakLuas();
         
     }
 }
