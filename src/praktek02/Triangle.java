@@ -9,5 +9,10 @@ public class Triangle {
     System.out.println("Tinggi : "+tinggi);
     System.out.println("=====================");
  }
-    
+
+ double hitungLuas(){
+     double luas;
+     luas=0.5*alas*tinggi;
+     return luas;
+ }
 }
