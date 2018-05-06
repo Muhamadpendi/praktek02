@@ -6,5 +6,7 @@ public class TriangleAksi {
         r1.alas = 8;
         r1.tinggi = 4;
         
+        r1.cetakInfo();
+        
     }
 }
